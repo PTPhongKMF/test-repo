@@ -12,6 +12,6 @@ Is this a text? From external!
 
 What!?
 Why!?
-dasda
-dasdada
-dasdada
+34
+34
+43
