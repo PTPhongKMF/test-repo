@@ -9,4 +9,16 @@ function testRelease() {
   console.log("test!!");
 }
 
+type ex1 = {
+  name: string,
+  age: number
+}
+
+interface ex2 {
+  name: string,
+  age: number
+}
+
+const i:ex2;
+
 main();
