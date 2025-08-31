@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.1.0...test-repo-v1.1.1) (2025-08-31)
+
+
+### 🐛 Bug Fixes hehe
+
+* can i edit release note body? ([52a4cfb](https://github.com/PTPhongKMF/test-repo/commit/52a4cfb4adcf0666b8812173b554b5f00a0922e2))
+
 ## [1.1.0](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.0.1...test-repo-v1.1.0) (2025-08-31)
 
 
