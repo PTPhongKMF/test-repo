@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.0.1...test-repo-v1.1.0) (2025-08-31)
+
+
+### ✨ New Features hehe
+
+* test new release please config ([fc2784c](https://github.com/PTPhongKMF/test-repo/commit/fc2784c2edd8505693fe4540adcd2da019d50ad4))
+
+
+### 🐛 Bug Fixes hehe
+
+* test!!!! ([5bd8215](https://github.com/PTPhongKMF/test-repo/commit/5bd8215a1309196e0ea3afbc2aea374a606fb1b4))
+* work now? ([07baa8a](https://github.com/PTPhongKMF/test-repo/commit/07baa8a35bbe34750b9437e8a123bacd9845802e))
+
 ## [1.0.1](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.0.0...test-repo-v1.0.1) (2025-08-31)
 
 
