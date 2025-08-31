@@ -16,6 +16,7 @@
     {"type": "fix", "section": "🐛 Bug Fixes hehe", "hidden": false}
   ],
 
+  "signoff": "sign of by me <me@gmail.com>",
 
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
