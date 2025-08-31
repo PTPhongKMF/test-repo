@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.1.2...test-repo-v1.1.3) (2025-08-31)
+
+
+### 🐛 Bug Fixes hehe
+
+* random to see if override work ([4bd9579](https://github.com/PTPhongKMF/test-repo/commit/4bd95797080c7bd3c887504f780de53e2c117128))
+
 ## [1.1.2](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.1.1...test-repo-v1.1.2) (2025-08-31)
 
 
