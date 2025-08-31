@@ -1,8 +1,19 @@
 {
   "packages": {
     ".": {
-      "release-type": "node"
+      "release-type": "node",
+      "package-name": "Test Repo in Config"
     }
   },
+
+  "pull-request-title-pattern": "Release(project): release${component} ${version}!!!!!!!",
+  "pull-request-header": ":robot: I have created a release *beep* *boop*. Also, this was changed in config!",
+  "pull-request-footer": "This PR was generated with Release Please and changed in config!!",
+
+  "changelog-sections": [
+    {"type": "feat", "section": "✨ New Features hehe", "hidden": false},
+    {"type": "fix", "section": "🐛 Bug Fixes hehe", "hidden": false}
+  ],
+
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
