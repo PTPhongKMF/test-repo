@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.2](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.1.1...test-repo-v1.1.2) (2025-08-31)
+
+
+### 🐛 Bug Fixes hehe
+
+* let see if signoff work ([85ff1ac](https://github.com/PTPhongKMF/test-repo/commit/85ff1ac56479d0de43ca432d2434a474bd9f995d))
+* ok ([a2e0e95](https://github.com/PTPhongKMF/test-repo/commit/a2e0e958202f9e5a5746e64feeb194f42a6959e7))
+* really ([83055f7](https://github.com/PTPhongKMF/test-repo/commit/83055f792918e3e56323c333c12ca7e56c69c3d5))
+* will signoff work now ([80bdd9a](https://github.com/PTPhongKMF/test-repo/commit/80bdd9a2d260940874b90c5ec13eb63e3806398d))
+* work now? ([204ad54](https://github.com/PTPhongKMF/test-repo/commit/204ad54238f8f56c66673c58ebc7d26cd8d0abd1))
+
 ## [1.1.1](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.1.0...test-repo-v1.1.1) (2025-08-31)
 
 
