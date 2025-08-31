@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.1.3...test-repo-v1.2.0) (2025-08-31)
+
+
+### ✨ New Features hehe
+
+* add ability to override merged commit message ([3acd90e](https://github.com/PTPhongKMF/test-repo/commit/3acd90e2f559de5fed99d19779e092023927bf63))
+* add ability to override merged commit message ([3acd90e](https://github.com/PTPhongKMF/test-repo/commit/3acd90e2f559de5fed99d19779e092023927bf63))
+
+
+### 🐛 Bug Fixes hehe
+
+* another message ([3acd90e](https://github.com/PTPhongKMF/test-repo/commit/3acd90e2f559de5fed99d19779e092023927bf63))
+* another message ([3acd90e](https://github.com/PTPhongKMF/test-repo/commit/3acd90e2f559de5fed99d19779e092023927bf63))
+* overrid work? ([3acd90e](https://github.com/PTPhongKMF/test-repo/commit/3acd90e2f559de5fed99d19779e092023927bf63))
+
 ## [1.1.3](https://github.com/PTPhongKMF/test-repo/compare/test-repo-v1.1.2...test-repo-v1.1.3) (2025-08-31)
 
 
