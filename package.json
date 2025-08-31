@@ -1,0 +1,17 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "A sample CLI for release-please.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pnpm pack"
+  },
+  "bin": {
+    "my-cli": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1"
+}
