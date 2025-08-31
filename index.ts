@@ -1,8 +1,7 @@
 // index.js
-#!/usr/bin/env node
 
 function main() {
-  console.log("Hello from my awesome CLI! 🚀 Version: " + process.env.npm_package_version);
+  console.log("Hello from my awesome CLI! 🚀 Version: ");
 }
 
 function testRelease() {
@@ -19,6 +18,6 @@ interface ex2 {
   age: number
 }
 
-const i:ex2;
+let i:ex2;
 
 main();
