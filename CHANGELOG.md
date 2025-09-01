@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.1](https://github.com/PTPhongKMF/test-repo/compare/v1.1.0...v1.1.1) (2025-09-01)
+
+
+### Bug Fixes
+
+* add checkout ([70edca8](https://github.com/PTPhongKMF/test-repo/commit/70edca878ba9426e510102d4c9777d6a134258e9))
+* force regenrate, let see ([5f766f5](https://github.com/PTPhongKMF/test-repo/commit/5f766f55bef88ef347cb6b2b7a6f5b649bd7ba1e))
+* will it re-generate title? ([6d8c4db](https://github.com/PTPhongKMF/test-repo/commit/6d8c4db84de79a3027f70475e9eb0e639281e16c))
+* work not? output. ([9258a2b](https://github.com/PTPhongKMF/test-repo/commit/9258a2b679278031b02f55594627049d2c6948ef))
+
 ## [1.1.0](https://github.com/PTPhongKMF/test-repo/compare/v1.0.1...v1.1.0) (2025-09-01)
 
 
