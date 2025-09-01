@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-2-v1.2.1...Test-Repo-2-v1.2.2) (2025-09-01)
+
+
+### 🐛 Bug Fixes hehe
+
+* try fixed string ([6c725cc](https://github.com/PTPhongKMF/test-repo/commit/6c725cc99ddb1bf6be7ef6a26997ec10deb73c19))
+
 ## [1.2.1](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-2-v1.2.0...Test-Repo-2-v1.2.1) (2025-09-01)
 
 
