@@ -34,9 +34,9 @@ jobs:
         run: |
           patterns=(
             "🚀 Let's ship a new release!"
-            "✨ Here comes a new version!"
-            "🎁 Unwrapping a fresh release for you"
-            "✅ This release is ready for takeoff"
+            # "✨ Here comes a new version!"
+            # "🎁 Unwrapping a fresh release for you"
+            # "✅ This release is ready for takeoff"
           )
 
           CHOSEN_TITLE="${patterns[$(( RANDOM % ${#patterns[@]} ))]}"
