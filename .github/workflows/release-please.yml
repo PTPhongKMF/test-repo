@@ -34,6 +34,7 @@ jobs:
         uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          config-file: release-please-config.json
+          # config-file: release-please-config.json
+          release-type: "simple"
           manifest-file: .release-please-manifest.json
           pull-request-title-pattern: "chore(release): ✅ Random title 5 v${version}"
