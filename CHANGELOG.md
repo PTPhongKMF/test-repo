@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/PTPhongKMF/test-repo/compare/v1.0.1...v1.1.0) (2025-09-01)
+
+
+### Features
+
+* shiba, let just edit after created ([ce5f7c0](https://github.com/PTPhongKMF/test-repo/commit/ce5f7c0fb2da4401ae53a8853e02e2c577b1f391))
+
+
+### Bug Fixes
+
+* use the correct id ([ff91f3a](https://github.com/PTPhongKMF/test-repo/commit/ff91f3a92cb5dc01452048b637ea7b3a8e149571))
+
 ## [1.0.1](https://github.com/PTPhongKMF/test-repo/compare/v1.0.0...v1.0.1) (2025-09-01)
 
 
