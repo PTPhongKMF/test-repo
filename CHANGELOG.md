@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/PTPhongKMF/test-repo/compare/v1.0.0...v1.0.1) (2025-09-01)
+
+
+### Bug Fixes
+
+* remove config file entirely ([af4a78a](https://github.com/PTPhongKMF/test-repo/commit/af4a78a8956c2b14e9d52357f0ba81e5f5fe3826))
+
 ## 1.0.0 (2025-09-01)
 
 
