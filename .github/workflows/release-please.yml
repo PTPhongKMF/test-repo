@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Release Please
-        id: release
+        id: release_pr
         uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -23,15 +23,12 @@ jobs:
           release-type: "simple"
           manifest-file: .release-please-manifest.json
       
-      - name: 🎨 Update PR with Playful Title
-        # This is a critical check. This step will only run if release-please
-        # actually created a pull request in the previous step.
-        if: ${{ steps.release.outputs.pr }}
+      - name: 🎨 Update PR with Playful Title (Only on Creation)
+        # 'releases_created' is still the correct flag to check for new PRs
+        if: ${{ steps.release_pr.outputs.releases_created }}
         env:
-          # The GitHub CLI needs a token to interact with the API
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Define your list of playful titles
           patterns=(
             "🚀 Let's ship a new release!"
             "✨ Here comes a new version!"
@@ -39,11 +36,11 @@ jobs:
             "✅ This release is ready for takeoff"
           )
 
-          # Pick a random title
           CHOSEN_TITLE="${patterns[$(( RANDOM % ${#patterns[@]} ))]}"
           
-          echo "New title will be: '$CHOSEN_TITLE'"
-          echo "Editing PR number: ${{ steps.release_pr.outputs.pull_request_number }}"
+          # V-- THIS IS THE CORRECTED SYNTAX --V
+          # We parse the 'pr' output string into a JSON object and then get its 'number' property.
+          PR_NUMBER=$(echo '${{ steps.release_pr.outputs.pr }}' | jq -r '.number')
 
-          # Use the GitHub CLI to edit the pull request's title
-          gh pr edit ${{ steps.release_pr.outputs.pull_request_number }} --title "$CHOSEN_TITLE"
+          echo "New PR created! Setting title of PR #$PR_NUMBER to: '$CHOSEN_TITLE'"
+          gh pr edit $PR_NUMBER --title "$CHOSEN_TITLE"
