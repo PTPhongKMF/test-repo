@@ -2,8 +2,7 @@
   "packages": {
     ".": {
       "release-type": "simple",
-      "package-name": "Test-Repo-2",
-      "extra-files": ["app.json"]
+      "package-name": "Test-Repo-2"
     }
   },
 
