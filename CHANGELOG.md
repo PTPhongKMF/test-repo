@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-2-v1.1.0...Test-Repo-2-v1.2.0) (2025-09-01)
+
+
+### ✨ New Features hehe
+
+* test random pull requets title ([571587b](https://github.com/PTPhongKMF/test-repo/commit/571587bd8353027cbc56433ad13c78997cbbce7c))
+
+
+### 🐛 Bug Fixes hehe
+
+* random title work now? ([34c6127](https://github.com/PTPhongKMF/test-repo/commit/34c61279b5b9dca04f47b842041f45fa4255be3f))
+
 ## [1.1.0](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-2-v1.0.0...Test-Repo-2-v1.1.0) (2025-09-01)
 
 
