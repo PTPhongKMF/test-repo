@@ -1,9 +1,9 @@
 {
   "packages": {
     ".": {
-      "release-type": "node",
-      "package-name": "Test Repo in Config",
-      "component": "test-repo"
+      "release-type": "simple",
+      "package-name": "Test-Repo-2",
+      "extra-files": ["app.json"]
     }
   },
 
