@@ -26,7 +26,7 @@ jobs:
       - name: 🎨 Update PR with Playful Title
         # This is a critical check. This step will only run if release-please
         # actually created a pull request in the previous step.
-        if: ${{ steps.release_pr.outputs.pr }}
+        if: ${{ steps.release.outputs.pr }}
         env:
           # The GitHub CLI needs a token to interact with the API
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
