@@ -6,7 +6,7 @@
     }
   },
 
-  "pull-request-title-pattern": "Release(project): release${component} ${version}!!!!!!!",
+  "----pull-request-title-pattern-----": "Release(project): release${component} ${version}!!!!!!!",
   "pull-request-header": ":robot: I have created a release *beep* *boop*. Also, this was changed in config!",
   "pull-request-footer": "This PR was generated with Release Please and changed in config!!",
 
