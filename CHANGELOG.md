@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-2-v1.2.0...Test-Repo-2-v1.2.1) (2025-09-01)
+
+
+### 🐛 Bug Fixes hehe
+
+* remove in config, maybe RP prefer config than cli ([fc3cc2f](https://github.com/PTPhongKMF/test-repo/commit/fc3cc2ff1d5845f642737923465b270503c9aa6d))
+
 ## [1.2.0](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-2-v1.1.0...Test-Repo-2-v1.2.0) (2025-09-01)
 
 
