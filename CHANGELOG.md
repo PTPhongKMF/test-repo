@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-2-v1.0.0...Test-Repo-2-v1.1.0) (2025-09-01)
+
+
+### ✨ New Features hehe
+
+* what if no extra file config? ([d8b7571](https://github.com/PTPhongKMF/test-repo/commit/d8b7571e7a1155132804e7de1e216b8ae4018f85))
+
+
+### 🐛 Bug Fixes hehe
+
+* how about a version.txt ? ([8c0f82a](https://github.com/PTPhongKMF/test-repo/commit/8c0f82a5cf583aac0be2926b46f9bdf178c48820))
+
 ## 1.0.0 (2025-09-01)
 
 
