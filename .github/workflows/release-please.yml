@@ -14,27 +14,36 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - name: 🎲 Generate Random PR Title Pattern
-        id: generate-title # Assign an ID to this step to reference it later
-        run: |
-          patterns=(
-            "chore(release): 🚀 Random title 1 v${version}!"
-            "chore(release): ✨ Random title 2 v${version}"
-            "chore(release): 🎁 Random title 3 v${version}"
-            "chore(release): ✅ Random title 4 v${version}"
-          )
-          RANDOM_INDEX=$(( RANDOM % ${#patterns[@]} ))
-          CHOSEN_PATTERN="${patterns[$RANDOM_INDEX]}"
-          
-          # This special command creates an output variable named 'title'
-          echo "title=$CHOSEN_PATTERN" >> $GITHUB_OUTPUT
-
       - name: Run Release Please
         id: release
         uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          # config-file: release-please-config.json
+          config-file: release-please-config.json
           release-type: "simple"
           manifest-file: .release-please-manifest.json
-          pull-request-title-pattern: "chore(release): ✅ Random title 5 v${version}"
+      
+      - name: 🎨 Update PR with Playful Title
+        # This is a critical check. This step will only run if release-please
+        # actually created a pull request in the previous step.
+        if: ${{ steps.release_pr.outputs.pr }}
+        env:
+          # The GitHub CLI needs a token to interact with the API
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Define your list of playful titles
+          patterns=(
+            "🚀 Let's ship a new release!"
+            "✨ Here comes a new version!"
+            "🎁 Unwrapping a fresh release for you"
+            "✅ This release is ready for takeoff"
+          )
+
+          # Pick a random title
+          CHOSEN_TITLE="${patterns[$(( RANDOM % ${#patterns[@]} ))]}"
+          
+          echo "New title will be: '$CHOSEN_TITLE'"
+          echo "Editing PR number: ${{ steps.release_pr.outputs.pull_request_number }}"
+
+          # Use the GitHub CLI to edit the pull request's title
+          gh pr edit ${{ steps.release_pr.outputs.pull_request_number }} --title "$CHOSEN_TITLE"
