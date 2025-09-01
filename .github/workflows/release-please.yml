@@ -14,6 +14,33 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # STEP 2: Pick a random title and use jq to update the existing file
+      - name: 🎲 Temporarily Modify PR Title Pattern
+        run: |
+          # Define your list of playful patterns
+          patterns=(
+            "chore(release): 🚀 Random title 1 v${version}!"
+            "chore(release): ✨ Random title 2 v${version}"
+            "chore(release): 🎁 Random title 3 v${version}"
+            "chore(release): ✅ Random title 4 v${version}"
+          )
+
+          # Pick a random pattern from the array
+          RANDOM_INDEX=$(( RANDOM % ${#patterns[@]} ))
+          CHOSEN_PATTERN="${patterns[$RANDOM_INDEX]}"
+          
+          echo "Selected temporary pattern: $CHOSEN_PATTERN"
+
+          # Use jq to modify the existing file in place
+          # This reads the file, updates the value, and writes to a temp file
+          # before replacing the original to avoid corruption.
+          jq --arg newTitle "$CHOSEN_PATTERN" \
+            '.packages["."]."pull-request-title-pattern" = $newTitle' \
+            release-please-config.json > tmp.json && mv tmp.json release-please-config.json
+
       - name: Run Release Please
         id: release
         uses: googleapis/release-please-action@v4
