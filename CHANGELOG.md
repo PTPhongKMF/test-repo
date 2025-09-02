@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-3-v2.0.0...Test-Repo-3-v2.1.0) (2025-09-02)
+
+
+### ✨ New Features hehe
+
+* name of workflow test ([4ae6f0b](https://github.com/PTPhongKMF/test-repo/commit/4ae6f0b5e884aa4672f1a7dd4fb992ca7ab3f664))
+
 ## [2.0.0](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-3-v1.1.0...Test-Repo-3-v2.0.0) (2025-09-02)
 
 
