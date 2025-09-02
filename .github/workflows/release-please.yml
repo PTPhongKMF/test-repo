@@ -1,5 +1,5 @@
 # .github/workflows/release-please.yml
-name: release-please
+name: Release Please Action
 
 on:
   push:
@@ -53,25 +53,3 @@ jobs:
           echo "  sha: ${{ steps.release.outputs.sha }}"
           
           echo "-------------------------------------------"
-
-      # - name: 🎨 Update PR with Playful Title (Only on Creation)
-      #   # 'releases_created' is still the correct flag to check for new PRs
-      #   if: ${{ steps.release_pr.outputs.releases_created }}
-      #   env:
-      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   run: |
-      #     patterns=(
-      #       "🚀 Let's ship a new release!"
-      #       # "✨ Here comes a new version!"
-      #       # "🎁 Unwrapping a fresh release for you"
-      #       # "✅ This release is ready for takeoff"
-      #     )
-
-      #     CHOSEN_TITLE="${patterns[$(( RANDOM % ${#patterns[@]} ))]}"
-          
-      #     # V-- THIS IS THE CORRECTED SYNTAX --V
-      #     # We parse the 'pr' output string into a JSON object and then get its 'number' property.
-      #     PR_NUMBER=$(echo '${{ steps.release_pr.outputs.pr }}' | jq -r '.number')
-
-      #     echo "New PR created! Setting title of PR #$PR_NUMBER to: '$CHOSEN_TITLE'"
-      #     gh pr edit $PR_NUMBER --title "$CHOSEN_TITLE"
