@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-3-v1.1.0...Test-Repo-3-v2.0.0) (2025-09-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proj.api:** will this bump major
+
+### ✨ New Features hehe
+
+* **proj.api:** will this bump major ([4699f4a](https://github.com/PTPhongKMF/test-repo/commit/4699f4a883e6efb6a522f200efc0d4b03d06ad96))
+
 ## [1.1.0](https://github.com/PTPhongKMF/test-repo/compare/Test-Repo-3-v1.0.0...Test-Repo-3-v1.1.0) (2025-09-02)
 
 
