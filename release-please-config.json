@@ -1,8 +1,10 @@
 {
   "packages": {
     ".": {
+      "strategy": "deno",
       "release-type": "simple",
-      "package-name": "Test-Repo-3"
+      "package-name": "Test Repo Deno",
+      "component": "Test-Repo-deno"
     }
   },
 
