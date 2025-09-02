@@ -23,27 +23,55 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-file: release-please-config.json
-          release-type: "simple"
           manifest-file: .release-please-manifest.json
       
-      - name: 🎨 Update PR with Playful Title (Only on Creation)
-        # 'releases_created' is still the correct flag to check for new PRs
-        if: ${{ steps.release_pr.outputs.releases_created }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Log Outputs'
+        # This condition ensures the logging step only runs if a release was made.
+        # if: steps.release.outputs.releases_created == 'true'
         run: |
-          patterns=(
-            "🚀 Let's ship a new release!"
-            # "✨ Here comes a new version!"
-            # "🎁 Unwrapping a fresh release for you"
-            # "✅ This release is ready for takeoff"
-          )
-
-          CHOSEN_TITLE="${patterns[$(( RANDOM % ${#patterns[@]} ))]}"
+          echo "-------------------------------------------"
+          echo "  Release Please Action Outputs"
+          echo "-------------------------------------------"
           
-          # V-- THIS IS THE CORRECTED SYNTAX --V
-          # We parse the 'pr' output string into a JSON object and then get its 'number' property.
-          PR_NUMBER=$(echo '${{ steps.release_pr.outputs.pr }}' | jq -r '.number')
+          echo "Generic Outputs:"
+          echo "  releases_created: ${{ steps.release.outputs.releases_created }}"
+          echo "  paths_released: ${{ steps.release.outputs.paths_released }}"
+          echo "  prs_created: ${{ steps.release.outputs.prs_created }}"
+          echo "  pr: ${{ steps.release.outputs.pr }}"
+          echo "  prs: ${{ steps.release.outputs.prs }}"
+          
+          echo ""
+          echo "Root Component Outputs:"
+          echo "  release_created: ${{ steps.release.outputs.release_created }}"
+          echo "  upload_url: ${{ steps.release.outputs.upload_url }}"
+          echo "  html_url: ${{ steps.release.outputs.html_url }}"
+          echo "  tag_name: ${{ steps.release.outputs.tag_name }}"
+          echo "  version: ${{ steps.release.outputs.version }}"
+          echo "  major: ${{ steps.release.outputs.major }}"
+          echo "  minor: ${{ steps.release.outputs.minor }}"
+          echo "  patch: ${{ steps.release.outputs.patch }}"
+          echo "  sha: ${{ steps.release.outputs.sha }}"
+          
+          echo "-------------------------------------------"
 
-          echo "New PR created! Setting title of PR #$PR_NUMBER to: '$CHOSEN_TITLE'"
-          gh pr edit $PR_NUMBER --title "$CHOSEN_TITLE"
+      # - name: 🎨 Update PR with Playful Title (Only on Creation)
+      #   # 'releases_created' is still the correct flag to check for new PRs
+      #   if: ${{ steps.release_pr.outputs.releases_created }}
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     patterns=(
+      #       "🚀 Let's ship a new release!"
+      #       # "✨ Here comes a new version!"
+      #       # "🎁 Unwrapping a fresh release for you"
+      #       # "✅ This release is ready for takeoff"
+      #     )
+
+      #     CHOSEN_TITLE="${patterns[$(( RANDOM % ${#patterns[@]} ))]}"
+          
+      #     # V-- THIS IS THE CORRECTED SYNTAX --V
+      #     # We parse the 'pr' output string into a JSON object and then get its 'number' property.
+      #     PR_NUMBER=$(echo '${{ steps.release_pr.outputs.pr }}' | jq -r '.number')
+
+      #     echo "New PR created! Setting title of PR #$PR_NUMBER to: '$CHOSEN_TITLE'"
+      #     gh pr edit $PR_NUMBER --title "$CHOSEN_TITLE"
