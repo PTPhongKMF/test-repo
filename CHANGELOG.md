@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.3.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v0.2.1...Test-prelease-v0.3.0) (2025-09-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* what about breaking?
+
+### ✨ New Features hehe
+
+* what about breaking? ([6be5b50](https://github.com/PTPhongKMF/test-repo/commit/6be5b50e6e01dc17dc9bf74a3e6a7bc931edfa02))
+
+
+### 🐛 Bug Fixes hehe
+
+* try make it bump minor for breaking ([f2f2026](https://github.com/PTPhongKMF/test-repo/commit/f2f2026ca78321cbc6f8823d9867b143bdd9d8da))
+
 ## [0.2.1](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v0.2.0...Test-prelease-v0.2.1) (2025-09-03)
 
 
