@@ -1,12 +1,10 @@
 {
-  "packages": {
-    ".": {
-      "strategy": "deno",
-      "release-type": "simple",
-      "package-name": "Test Repo Deno",
-      "component": "Test-Repo-deno"
-    }
-  },
+  "component": "Test-prelease",
+  "release-type": "simple",
+
+  "initial-version": "0.1.0",
+  "bump-minor-pre-major": false,
+  "bump-patch-for-minor-pre-major": false,
 
   "pull-request-title-pattern": "Release(project): release${component} ${version}!!!!!!!",
   "pull-request-header": ":robot: I have created a release *beep* *boop*. Also, this was changed in config!",
