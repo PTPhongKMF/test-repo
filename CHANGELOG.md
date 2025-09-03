@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v1.0.0...Test-prelease-v2.0.0) (2025-09-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* will breaking only change minor after 1.x
+
+### ✨ New Features hehe
+
+* will breaking only change minor after 1.x ([beccc10](https://github.com/PTPhongKMF/test-repo/commit/beccc10552817df9ceec1df90abc0f367196ff43))
+
+
+### 🐛 Bug Fixes hehe
+
+* forgot to remove release-as ([faefd00](https://github.com/PTPhongKMF/test-repo/commit/faefd00668579d61700ac2492eb7b8692a89effd))
+
 ## [1.0.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v0.3.1...Test-prelease-v1.0.0) (2025-09-03)
 
 
