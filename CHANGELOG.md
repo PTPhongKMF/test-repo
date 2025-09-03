@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v0.3.0...Test-prelease-v0.3.1) (2025-09-03)
+
+
+### ✨ New Features hehe
+
+* feat as patch? ([6958fbe](https://github.com/PTPhongKMF/test-repo/commit/6958fbe3c036235dde4465a20b02abde6c9306f6))
+
 ## [0.3.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v0.2.1...Test-prelease-v0.3.0) (2025-09-03)
 
 
