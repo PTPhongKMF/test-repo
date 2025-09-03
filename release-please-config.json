@@ -2,9 +2,9 @@
   "component": "Test-prelease",
   "release-type": "simple",
 
-  "packages": {
-    ".": {}
-  },
+  "bootstrap-sha": "ccf9501a5dfd4068c56c3a2b9f15e43eec4fc99f",
+
+  
 
   "initial-version": "0.1.0",
   "bump-minor-pre-major": false,
