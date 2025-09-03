@@ -24,8 +24,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
-          extra-plugins: |
-            @courier-health/release-please-deno
       
       - name: 'Log Outputs'
         # This condition ensures the logging step only runs if a release was made.
