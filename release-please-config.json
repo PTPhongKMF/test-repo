@@ -2,6 +2,10 @@
   "component": "Test-prelease",
   "release-type": "simple",
 
+  "packages": {
+    ".": {}
+  },
+
   "initial-version": "0.1.0",
   "bump-minor-pre-major": false,
   "bump-patch-for-minor-pre-major": false,
