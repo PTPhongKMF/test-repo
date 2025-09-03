@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v0.2.0...Test-prelease-v0.2.1) (2025-09-03)
+
+
+### 🐛 Bug Fixes hehe
+
+* whatabout fix? ([ac6e165](https://github.com/PTPhongKMF/test-repo/commit/ac6e16522fe374d596dfb4985da402f10a3640b6))
+
 ## [0.2.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v0.1.0...Test-prelease-v0.2.0) (2025-09-03)
 
 
