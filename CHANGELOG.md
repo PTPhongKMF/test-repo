@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v0.3.1...Test-prelease-v1.0.0) (2025-09-03)
+
+
+### ✨ New Features hehe
+
+* force 1.0.0 ([7d43a8a](https://github.com/PTPhongKMF/test-repo/commit/7d43a8af5292b14cae2929ff084d39bdd7d0a75b))
+
 ## [0.3.1](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v0.3.0...Test-prelease-v0.3.1) (2025-09-03)
 
 
