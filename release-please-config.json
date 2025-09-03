@@ -1,11 +1,12 @@
 {
-  "component": "Test-prelease",
   "release-type": "simple",
 
   "bootstrap-sha": "e5f9899f637f7260080be581b98647d65ddad698",
 
   "packages": {
-    ".": {}
+    ".": {
+      "component": "Test-prelease",
+    }
   },
 
   "initial-version": "0.1.0",
