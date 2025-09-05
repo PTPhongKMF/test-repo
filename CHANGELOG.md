@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.2.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.1.0...Test-prelease-v2.2.0) (2025-09-05)
+
+
+### ✨ New Features hehe
+
+* test again x1 ([3d575d1](https://github.com/PTPhongKMF/test-repo/commit/3d575d13ceba70aeccb0089cfbfbe85c1c17e24d))
+
+
+### 🐛 Bug Fixes hehe
+
+* ok, will it change name ([769a121](https://github.com/PTPhongKMF/test-repo/commit/769a12145ddc2b8de686e32a9e023671c95daf51))
+
 ## [2.1.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.0.0...Test-prelease-v2.1.0) (2025-09-03)
 
 
