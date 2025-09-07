@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.2.0...Test-prelease-v2.3.0) (2025-09-07)
+
+
+### ✨ New Features hehe
+
+* test node stategy again ([60938bd](https://github.com/PTPhongKMF/test-repo/commit/60938bde23ab270fea33cc54b4d623dc0948ac00))
+* test rust strategy ([2a6b4e9](https://github.com/PTPhongKMF/test-repo/commit/2a6b4e9351d4e615fb622941f7a86c5fd57ba446))
+
 ## [2.2.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.1.0...Test-prelease-v2.2.0) (2025-09-05)
 
 
