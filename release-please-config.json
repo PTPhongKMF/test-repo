@@ -1,5 +1,5 @@
 {
-  "release-type": "node",
+  "release-type": "rust",
 
   "bootstrap-sha": "e5f9899f637f7260080be581b98647d65ddad698",
 
