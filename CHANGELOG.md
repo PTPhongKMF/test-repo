@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.5.0...Test-prelease-v2.6.0) (2025-09-08)
+
+
+### ✨ New Features hehe
+
+* use this ([cf64fa3](https://github.com/PTPhongKMF/test-repo/commit/cf64fa30fc84f953ab15561f2801b402ec0d9bc1))
+
 ## [2.5.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.4.0...Test-prelease-v2.5.0) (2025-09-08)
 
 
