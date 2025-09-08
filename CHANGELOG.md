@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.4.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.3.0...Test-prelease-v2.4.0) (2025-09-08)
+
+
+### ✨ New Features hehe
+
+* test rust version bump again ([120220b](https://github.com/PTPhongKMF/test-repo/commit/120220b7c4f17cc55ac1081e1e1238b40bd1fcad))
+
+
+### 🐛 Bug Fixes hehe
+
+* hmm ([9c83129](https://github.com/PTPhongKMF/test-repo/commit/9c83129715f918a177ef5cb2273564a346f22acf))
+
 ## [2.3.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.2.0...Test-prelease-v2.3.0) (2025-09-07)
 
 
