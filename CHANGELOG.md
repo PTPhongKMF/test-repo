@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.4.0...Test-prelease-v2.5.0) (2025-09-08)
+
+
+### ✨ New Features hehe
+
+* bad title pr ([f24c980](https://github.com/PTPhongKMF/test-repo/commit/f24c9806c2b78c2cd0fa3d573e4c7989cc5e807f))
+
 ## [2.4.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.3.0...Test-prelease-v2.4.0) (2025-09-08)
 
 
