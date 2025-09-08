@@ -13,7 +13,6 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
 
-  "pull-request-title-pattern": "hi",
   "pull-request-header": ":robot: I have created a release *beep* *boop*. Also, this was changed in config!!!!!",
   "pull-request-footer": "This PR was generated with Release Please and changed in config!!",
 

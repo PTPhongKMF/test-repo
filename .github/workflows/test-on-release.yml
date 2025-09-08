@@ -1,0 +1,21 @@
+name: Read test.txt on release
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  read-file:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout step: default
+      - name: Checkout code
+        uses: actions/checkout@v5
+        # Optional: uncomment to explicitly checkout the release tag
+        # with:
+        #   ref: ${{ github.event.release.tag_name }}
+
+      - name: Print Test.txt
+        run: |
+          echo "Contents of Test.txt:"
+          cat Test.txt
