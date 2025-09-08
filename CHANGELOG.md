@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.1](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.6.0...Test-prelease-v2.6.1) (2025-09-08)
+
+
+### 🐛 Bug Fixes hehe
+
+* let see if checkout without ref work with release ([0763cce](https://github.com/PTPhongKMF/test-repo/commit/0763cce39bdb44ffc1f1bce5f833c3be148fb1a6))
+
 ## [2.6.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.5.0...Test-prelease-v2.6.0) (2025-09-08)
 
 
