@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.7.0](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.6.1...Test-prelease-v2.7.0) (2025-09-10)
+
+
+### ✨ New Features hehe
+
+* sr token ([4432996](https://github.com/PTPhongKMF/test-repo/commit/44329967079492b34cb5410e8cd6604dc7b7e1b7))
+* test draft ([06a9869](https://github.com/PTPhongKMF/test-repo/commit/06a9869ffeed73940d150b9a523d7e6aaf4a4200))
+
 ## [2.6.1](https://github.com/PTPhongKMF/test-repo/compare/Test-prelease-v2.6.0...Test-prelease-v2.6.1) (2025-09-08)
 
 
